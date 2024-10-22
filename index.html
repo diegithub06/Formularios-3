@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tipos de Inputs</h1>
+    <fieldset>
+        <p>
+            <label for="nom">Nombre:</label>
+            <input type="text" maxlength="6" name="Nombre" id="nom">
+        </p>
+        <p>
+            <label for="contrase">Contrase:</label>
+            <input type="password" maxlength="6" name="contraseña" id="contrase">
+        </p>
+        <p>
+            <label for="Hombre">Hombre: </label>
+            <input type="radio" value="H" checked id="Hombre" name="genero">
+            <label for="Mujer">Mujer: </label>
+            <input type="radio" value="M"  id="Mujer" name="genero">
+        </p>
+        <p>
+            <label for="fumador">Fumador</label>
+            <imput type="checkbox" value="fumador" id="fumador">
+        </p>
+    </fieldset>
+    <p>
+        <label for="Provincia">Tipo de habitación</label> 
+        <select name="provincia" id="prov">
+            <option value="0">Elija una</option>
+            <option value="Ci">Ciudad Reall</option>
+            <option value="Al">Albacete</option>
+            <option value="To">Toledo</option>
+            <option value="Gu">Guadalajara</option>
+        </select>
+        </p>
+        <label for="ob">Observaciones</label>
+        <p>
+        <textarea name="obs" placeholder="Escriba sus Observaciones" cols="10" rows="6">Llevo Mascotas</textarea>
+        </p>
+        <p>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>
+            <label for="fecha-nacimiento">Fecha de Nacimiento</label>
+            <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+        </p>
+        <p>
+            <label for="edad">Edad</label>
+            <input type="number" name="Edad" id="edad">
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="foto">Adjuntar foto: </label>
+            <input type="file" name="foto" id="foto">
+        </p>
+    <p>
+        <input type="submit" value="Envíar">
+        <input type="reset" value="Borrar todo">
+    </p>
+</body>
+</html>
